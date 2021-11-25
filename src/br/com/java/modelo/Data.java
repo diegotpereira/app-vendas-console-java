@@ -28,6 +28,4 @@ public class Data {
     public String toString() {
         return dia + "/" + mes + "/" + ano;
     }
-
-    
 }

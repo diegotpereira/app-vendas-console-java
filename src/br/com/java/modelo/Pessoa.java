@@ -13,11 +13,13 @@ public class Pessoa {
     private Data dtNasc;
     public TipoUsuario role;
 
-    public Pessoa(int login, int senha, String nome, String cpf) {
+    public Pessoa(int login, int senha, Data dtNasc, String nome, String cpf) {
         this.login = login;
         this.senha = senha;
+        this.dtNasc = dtNasc;
         this.nome = nome;
         this.cpf = cpf;
+        this.codigo = count.incrementAndGet();
     }
 
     public static AtomicInteger getCount() {

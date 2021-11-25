@@ -1,5 +1,8 @@
 package br.com.java.modelo;
 
-public class TipoUsuario {
-    
+public enum TipoUsuario {
+    CLIENTE,
+    FUNCIONARIO,
+    ADMINISTRADOR,
+    INVALIDO
 }
